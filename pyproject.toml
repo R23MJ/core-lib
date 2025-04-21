@@ -9,9 +9,12 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-    "pydantic (>=2.11.3,<3.0.0)",
+    "pydantic[email] (>=2.11.3,<3.0.0)",
     "aio-pika (>=9.5.5,<10.0.0)",
-    "sqlalchemy (>=2.0.40,<3.0.0)"
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "pytest-asyncio (>=0.26.0,<0.27.0)",
+    "pytest-mock (>=3.14.0,<4.0.0)"
 ]
 
 
